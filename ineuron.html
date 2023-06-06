@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+              sm: '480px',
+              md: '578px',
+              lg: '1153px',
+              xl: '1440px'
+            },
+            extend: {
+              colors: {
+                myskyBlue: '#00BAF2',
+                myBlue: '#002970',
+                myDark: '#000000',
+                myLight: '#ffffff',
+                myHover: '#00afe3',
+                blueHeading: '#233c7b',
+                bgGray: '#858585',
+    
+              }
+            }
+          }
+        }
+      </script>
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
+       integrity="sha384-fZCoUih8XsaUZnNDOiLqnby1tMJ0sE7oBbNk2Xxf5x8Z4SvNQ9j83vFMa/erbVrV" crossorigin="anonymous" />
+    <title>Ineuron</title>
+</head>
+<body>
+   <div class="conatiner">
+    <!-- navbar -->
+    <!-- small navbar -->
+    <div class="navbar">
+    <div  class="lg:hidden flex justify-between">
+    <img src="https://ineuron.ai/images/hamburger.svg" alt="" srcset="">
+    <img class="w-[120px]" src="https://ineuron.ai/images/ineuron-logo.png" alt="" srcset="">
+    <img src="https://ineuron.ai/images/search-icon.svg" alt="" srcset="">
+    </div>
+    <!-- large navbar -->
+    <div class="hidden lg:flex justify-around mt-4">
+        <img class="w-[120px]" src="https://ineuron.ai/images/ineuron-logo.png" alt="" srcset="">
+        <div class="search_header  border flex justify-between ">
+            <img src="https://ineuron.ai/images/search-icon.svg" alt="" srcset="">
+       <input class="w-[800px] h-[50px]"  type="search" name="search" id="" placeholder="what do you want to learn?" autocomplete="off">
+    </div>
+    
+    <button class="text-myBlue" type="submit">Sign up</button>
+    <button class="bg-myBlue w-32 rounded text-[#ffff] h-12" type="submit">Sign up</button>
+    </div>
+</div>
+
+<!-- hero section -->
+<div class="courses">
+    <!-- clourses list -->
+    <div class=" courselist ">
+    <ul class="hidden lg:flex justify-around mt-10">
+        <li class="hover:cursor-pointer">Courses</li>
+        <li class="hover:cursor-pointer">One Neuron</li>
+        <li class="hover:cursor-pointer">Neuro Lab</li>
+        <li class="hover:cursor-pointer">Job Portal</li>
+        <li class="hover:cursor-pointer">Internship Portal</li>
+        <li class="hover:cursor-pointer">Become an affiliate</li>
+        <li class="hover:cursor-pointer">Hall of Fame</li>
+        <li class="hover:cursor-pointer">Company</li>
+    </ul>
+</div>
+<!-- image -->
+<div class="img mt-10">
+    <img src="./images/web.png" alt="">
+</div>
+</div>
+
+<!-- card_section_1-->
+<div class="card_section_1 flex-col justify-items-center ">
+    <div class="head flex justify-center">
+        <h1 class="text-4xl font-semibold mt-10 mb-6 text-myBlue">“Pure Hardwork, No Shortcuts!”</h1>
+    </div>
+     <div class="cards  m-10 flex  flex-col items-center  md:flex-row md:justify-between">
+        <div  class="card1  ">
+            <img class="w-[200px]" src="https://ineuron.ai/images/landing-page/statistics/books-icon.svg" alt="">
+            <h1 class="md:flex justify-center  text-3xl font-semibold text-myBlue">300+</h1>
+            <h1 class="text-2xl font-semibold">Different Courses</h1>
+        </div>
+        <div class="card2">
+            <img class="w-[200px]" src="https://ineuron.ai/images/landing-page/statistics/student-iocn.svg" alt="">
+            <h1 class="md:flex justify-center text-3xl font-semibold text-myBlue">4,00,000+</h1>
+            <h1 class="text-2xl font-semibold">Students Enrolled</h1>
+        </div>
+        <div class="card3">
+            <img class="w-[200px]" src="https://ineuron.ai/images/landing-page/statistics/credit-card-icon.svg " alt="">
+            <h1 class="md:flex justify-center text-3xl font-semibold text-myBlue">10,000+</h1>
+            <h1 class=" text-2xl font-semibold">Successful Transition</h1>
+        </div>
+     </div>
+</div>
+
+<!-- card_section_2 -->
+<div class="card_section_2 flex  flex-col items-center mt-20">
+    <h2>Hall of fame</h2>
+    <!-- card conatiner -->
+    <div class="card_container hover:cursor-pointer flex flex-col lg:flex-row items-center m-10  justify-between  gap-40 mt-20">
+        <div class="card1 w-[85%] md:w-[60%] sm:w-[30%] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] flex flex-col items-center ">
+            <img class="rounded-full  p-20 " src="./images/card1.jpeg" alt="">
+            <h4 class="text-xl   text-myBlue font-semibold flex p-5  ">Safepack Industries Ltd., Jr. Business Analyst
+
+            </h4>
+            <p class="p-5">I wanted to express my heartfelt gratitude for your incredible support and guidance throughout my journey into data science. Thanks to your expertise and dedication, I have successfully made the transition and achieved my goals. Your comprehensive curriculum, hands-on projects, and interactive learning environment provided me with the necessary skills and knowledge to excel in this field.
+
+
+            </p>
+        </div>
+
+        <div class="card2 w-[85%] md:w-[60%] sm:w-[30%] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]  flex flex-col items-center ">
+            <img class="rounded-full p-20" src="./images/card2.jpeg" alt="">
+<h4 class="text-2xl text-myBlue font-semibold flex p-5">Safepack Industries Ltd., Jr. Business Analyst
+</h4>
+            <p class="p-5">Its been great learning experience with Ineuron, specially with Sudhanshu Sir for python, and Krish Sir for my favorite subject statistics. I am mechanical engineering background having 3 yrs. of experience in manufacturing industry. 
+            </p>
+        </div>
+
+        <div class="card3 w-[85%] md:w-[60%] sm:w-[30%]  shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+            <img class="rounded-full p-20" src="./images/card3.jpeg" alt="">
+<h4 class="text-2xl text-myBlue font-semibold flex p-5">Atgeir Solutions , Associate Data Engineer
+
+
+</h4>
+            <p class="p-5">I want to express gratitude to iNeuron because in-depth lectures and guidance by iNeuron I was able to crack a Data Science Internship in my first year of UG only.
+
+
+
+            </p>
+        </div>
+        
+
+    </div>
+</div>
+
+<!-- Courses_heading_section -->
+<div class="course_heading flex flex-col items-center mt-20 gap-4">
+    <div class="text-blueHeading text-4xl font-bold ">   
+        <h1>Live Program</h1>
+    </div>
+    <div class="text-[#3c4958] mb-20 wrap">
+        <h4>Get your program with live "instructor led" learning.</h4>
+    </div>
+</div>
+
+<!-- Courses -->
+<div class="flex flex-col lg:flex-row items-center m-10  justify-between  gap-40 mt-20">
+    <div class="card1  w-[85%] md:w-[60%] sm:w-[30%] shadow-[0_30px_60px_-20px_rgba(0,0,2,0.3)]  rounded">
+        <div class="img  flex justify-center">
+            <img class="w-[80%]" src="./images/coursecard1.jpg" alt="">
+        
+        </div>
+
+        <div class="flex flex-col items-center">
+        <h1 class="text-blueHeading text-3xl font-bold mt-10">C++ Bootcamp</h1>
+        <p class="text-bgGray mt-5 w-[70%]">200+ courses, 500+ projects, raise your demand option, consistent services from iNeuron, work 1:1 with experts </p>
+    </div>
+    <div class="text-myDark flex justify-around mt-10 ">
+        <h1 class="w-[70%] text-2xl">₹15000.00</h1>
+    </div>
+    </div>
+
+    <div class="card2 w-[85%] md:w-[60%] sm:w-[30%] shadow-[0_30px_60px_-20px_rgba(0,0,2,0.3)]  rounded">
+        <div class="img flex justify-center">
+            <img class="w-[80%]" src="./images/62d6df72ff20c43eed5d28be.jpg" alt="">
+        
+        </div>
+
+        <div class="flex flex-col items-center">
+        <h1 class="text-blueHeading text-3xl font-bold mt-10">Java Bootcamp</h1>
+        <p class="text-bgGray mt-5 w-[70%]">200+ courses, 500+ projects, raise your demand option, consistent services from iNeuron, work 1:1 with experts Java program </p>
+    </div>
+    <div  class="text-myDark flex justify-around mt-10 ">
+        <h1 class="w-[70%] text-2xl">₹15000.00</h1>
+    </div>
+    </div>
+
+    <div class="card3 w-[85%] md:w-[60%] sm:w-[30%] shadow-[0_30px_60px_-20px_rgba(0,0,2,0.3)]  rounded">
+        <div class="img flex justify-center">
+            <img class="w-[80%]" src="./images/638f487e2f9fa17aaa9fca59.jpg" alt="">
+        
+        </div>
+
+        <div class="flex flex-col items-center">
+        <h1 class="text-blueHeading text-3xl font-bold mt-10">BIg Data Bootcamp</h1>
+        <p class="text-bgGray mt-5 w-[70%]">200+ courses, 500+ projects, raise your demand option, consistent services from iNeuron, work 1:1 with experts </p>
+    </div>
+    <div  class="text-myDark flex justify-around mt-10 ">
+        <h1 class="w-[70%] text-2xl">₹15000.00</h1>
+    </div>
+    </div>
+
+</div>
+
+
+<!-- footer_section -->
+<div class="footer bg-myBlue flex flex-col items-start md:flex-row justify-around  p-4 text-[#ffffff]">
+    <div class="left_footer w-[25%] p-10   ">
+        <img  src="./images/ineuronfooter.png" alt="">
+        <div class="social flex gap-4 m-4 ">
+            <a> <img src="https://assetscdn1.paytm.com/frontendcommonweb/508b83d1.svg" alt="twitter-icon "></a>
+            <a> <img src="https://assetscdn1.paytm.com/frontendcommonweb/f9c15a7a.svg" alt="instagram-icon"></a>
+            <a> <img src="https://assetscdn1.paytm.com/frontendcommonweb/ad9d15ee.svg" alt="facebook-icon"></a>
+        </div>
+            <div class="address flex gap-4 m-4">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" class="Footer_footer_location_marker__680ja" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                <p>17th Floor Tower A, Brigade Signature Towers, Sannatammanahalli, Bengaluru, Karnataka 562129.</p>
+            </div>
+            <div class="email flex gap-4 m-4">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="Footer_footer_location_marker__680ja" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M477.5 536.3L135.9 270.7l-27.5-21.4 27.6 21.5V792h752V270.8L546.2 536.3a55.99 55.99 0 0 1-68.7 0z"></path><path d="M876.3 198.8l39.3 50.5-27.6 21.5 27.7-21.5-39.3-50.5z"></path><path d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-94.5 72.1L512 482 190.5 232.1h643zm54.5 38.7V792H136V270.8l-27.6-21.5 27.5 21.4 341.6 265.6a55.99 55.99 0 0 0 68.7 0L888 270.8l27.6-21.5-39.3-50.5h.1l39.3 50.5-27.7 21.5z"></path></svg>
+                <h1><strong>Email Us: </strong>Contact@ineuron.ai</h1>
+               
+            </div>
+            <div class="footeriso m-4">
+                <img src="./images/footeriso.svg" alt="" srcset="">
+                <p>ISO  9001</p>
+            </div>
+        
+    </div>
+    <!-- footer center -->
+    <div class="footercenter w-[25%] ">
+        <h1 class="font-bold text-2xl">Company</h1>
+        <div class="list flex mt-4 ">
+        <ul >
+            <li class="m-2">About us</li>
+            <li class="m-2">Community</li>
+            <li class="m-2">FAQs</li>
+            <li class="m-2">Job assistance</li>
+            <li class="m-2">Terms and conditions</li>
+        </ul>
+        <ul>
+            <li class="m-2">Contact us</li>
+            <li class="m-2">Hack-A-Thon</li>
+            <li class="m-2">
+                Job guarantee</li>
+                <l class="m-2"i>Privacy policy</l>
+        </ul>
+    </div>
+    </div>
+    <!-- foooter right -->
+    <div class="rightfooter w-[25%]">
+        <h1 class="font-bold text-2xl">Products</h1>
+        <ul class="mt-4">
+            <li class="m-2">Neuro Lab</li>
+            <li class="m-2">Job Portal</li>
+            <li class="m-2">Internship portal</li>
+            <li class="m-2">Become an affiliate</li>
+            <li class="m-2">Hall of fame</li>
+        </ul>
+    </div>
+</div>
+
+</div>
+ 
+</body>
+</html>
